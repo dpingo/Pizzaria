@@ -1,0 +1,120 @@
+body{
+	background-image: url("imagesBg.jpg");
+	 background-repeat: no-repeat;/*The background image is only shown once.*/ 
+}
+
+.topnav {
+	overflow: hidden;
+	/*The overflow is clipped, and the rest of the content will be invisible
+	https://www.w3schools.com/css/css_overflow.asp
+	*/
+	background-color: #333;
+	position:sticky;
+	/*so that it sticks to the top*/
+	top: 0;/*It takes distance from top (top offset).*/
+	
+	/*If the element is in position absolute, the element will position itself from the top of the first positioned ancestor.*/
+
+    width: 100%;
+  }
+  
+  .topnav a {/*doubt*/
+	float: left; /*doubt*/
+	color: #f2f2f2;
+	font-family: cursive;
+	text-align: center;
+	padding: 14px 16px; /*doubt*/
+	text-decoration: none;
+	font-size: 20px;
+  }
+  
+  .topnav a:hover {
+	background-color: #bbb;
+	color: black;/*change in text color*/
+  }
+
+  .topnav-right {
+	float: right;/*doubt*/
+  }
+
+  .row::after { /*doubt*/
+	/*content: "";*/
+	/*clear: both;*/
+	/*display: table;*/
+  }
+  .img_div{
+	float: left;
+	width: 50%;
+	padding: 5px;
+  }
+  .menu_div{
+	float: right;
+	width: 50%;
+	padding: 160px;
+	color: honeydew;
+	font-size: 30px;
+	font-family: cursive;
+  }
+  #menu_list{
+	background-color:#f5c71a;
+	color:black; 
+	width: 200px;
+	border: none;
+  }
+
+  .newRow::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+  .block1{
+	float: left;
+	width: 20%;
+	padding: 5px;
+  }
+  .block2{
+	float: left;
+	width: 80%;
+	padding: 5px;
+	color: honeydew;
+	font-size: 25px;
+	font-family: cursive;
+  }
+
+  #add_toppings{
+	padding-left:30px;
+	width:150px;
+	height:100px;
+	border: none;
+	background-color:#f28f9f;
+	color:black;
+	font-size: 22px;
+	font-family: cursive;
+	
+  }
+
+  #add_item {
+	font-family: cursive;
+	font-size: 15px;
+	line-height: 500px;
+	width: 80%;
+	height: 50px;
+	color: #ffffff;
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(223, 205, 205);
+    outline: none;
+ }
+
+[placeholder]:focus::-webkit-input-placeholder {
+    transition: text-indent 0.4s 0.4s ease; 
+    text-indent: -100%;
+	opacity: 1;
+	color: white;
+ }
+
+#im1{
+	width:100px;
+	height: 80px;
+}
