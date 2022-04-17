@@ -1,3 +1,4 @@
+//array and for loop
 menu_list_array = ["Veg Margherita Pizza",
                         "Chicken Tandoori Pizza",
                         "Veg Supreme Pizza",
